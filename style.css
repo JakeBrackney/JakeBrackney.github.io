@@ -127,6 +127,7 @@ p {
 #phone {
 	color: rgb(66, 133, 244);
 	text-decoration: underline;
+	z-index: 1;
 }
 
 @media screen and (max-width: 600px) {
