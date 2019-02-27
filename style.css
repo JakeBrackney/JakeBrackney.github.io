@@ -69,7 +69,6 @@ h2 {
 
 .resume-image {
 	display: inline-block;
-	max-width: 80%
 }
 
 .brand {
@@ -121,13 +120,7 @@ p {
 .contact-me {
 	display: block;
 	margin: 0 auto;
-	padding: 15px
-}
-
-#phone {
-	color: rgb(66, 133, 244);
-	text-decoration: underline;
-	z-index: 1;
+	padding: 15px;
 }
 
 @media screen and (max-width: 600px) {
@@ -177,9 +170,6 @@ p {
 	}
 	.project {
 		display: inline-block
-	}
-	.resume-image {
-		max-width: 80%
 	}
 	.contact-me {
 		text-align: center;
