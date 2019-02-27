@@ -69,6 +69,7 @@ h2 {
 
 .resume-image {
 	display: inline-block;
+	max-width: 50%
 }
 
 .brand {
@@ -144,7 +145,7 @@ p {
 		display: inline-block
 	}
 	.resume-image {
-		max-width: 80%
+		max-width: 100%
 	}
 	.contact-me {
 		font-size: 18px;
