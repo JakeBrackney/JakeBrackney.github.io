@@ -1,5 +1,5 @@
 body {
-	background-image: url("skyline.jpg");
+	/* background-image: url("skyline.jpg"); */
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -7,6 +7,8 @@ body {
 }
 
 header {
+	display: flex;
+	justify-content: space-between;
 	background: black;
 	color: rgb(255, 255, 255);
 	text-align: left;
@@ -18,20 +20,31 @@ header {
 }
 
 a {
-	color: black;
+	color: white;
 	text-decoration: none;
-	padding: 10px 30px 0px 30px;
-	font-size: 24px;
-	font-weight: 700;
+	padding: 0 30px 0px 30px;
+	font-size: 36px;
+	/* font-weight: 700; */
 }
 
 a:hover {
-	color: #1155A2
+	font-style: italic;
+	font-weight: 700
 }
 
 .nav-link {
 	font-size: 36px;
 	border-radius: 50px;
+}
+
+.contact {
+	text-align: center
+}
+
+a.contact {
+	display: inline-block;
+	color: black;
+	font-size: 36px;
 }
 
 h1 {
@@ -48,41 +61,62 @@ h2 {
 	font-weight: 700;
 }
 
-p {
+.brand {
 	text-align: center;
-	font-size: 18px;
+	/* max-width: 500px; */
 }
 
-nav {
-	max-width: 500px;
-	padding: 30px 0 0 15px;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	font-weight: 100;
+.brand-elements {
+	display: inline-block;
 }
+
+p {
+	font-size: 24px;
+	max-width: 700px;
+	/* text-align: center; */
+	/* font-size: 18px; */
+}
+
+.headshot {
+	max-width: 200px;
+	padding: 15px 0 0 0;
+}
+
 
 .projects {
-	padding: 20px 0 0 30px
+	padding: 20px 0 0 20px
 }
 
 .project {
 	border: 1px solid rgb(0, 0, 0);
-	height: 200px;
-	width: 300px;
-}
-
-.contact {
-	padding: 60px 0 0 0;
+	max-height: 200px;
 }
 
 .section {
 	color: black;
-	text-decoration: underline;
-	font-size: 24px;
+	font-size: 36px;
 	font-weight: 700;
+	padding: 20px 0 0 30px
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
 	.small{
-		font-size: 50px;
+		padding: 5px;
+		font-size: 24px;
+	}
+	a {
+		padding: 5px;
+	}
+	.nav-link {
+		font-size: 24px;
+	}
+	p {
+		font-size: 16px;
+	}
+	.projects {
+		text-align: center;
+	}
+	.projects {
+		display: inline-block
 	}
 }
