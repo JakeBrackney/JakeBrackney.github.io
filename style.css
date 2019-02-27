@@ -28,8 +28,7 @@ a {
 }
 
 a:hover {
-	font-style: italic;
-	font-weight: 700
+	color: rgb(48, 128, 198)
 }
 
 .nav-link {
@@ -47,6 +46,10 @@ a.contact {
 	font-size: 36px;
 }
 
+a.contact:hover {
+	color: rgb(48, 128, 198)
+}
+
 h1 {
 	color: black;
 	text-decoration: none;
@@ -59,6 +62,16 @@ h2 {
 	padding: 0 0 0 50px;
 	font-size: 24px;
 	font-weight: 700;
+}
+
+.resume {
+	text-align: center;
+	/* width: 20px */
+	/* background-image: url('./resume.png') */
+}
+
+.resume-image {
+	display: inline-block;
 }
 
 .brand {
@@ -81,10 +94,14 @@ p {
 }
 
 .projects {
+	text-align: center;
+
+
 	padding: 20px 0 0 20px
 }
 
 .project {
+	display: inline-block;
 	border: 1px solid rgb(0, 0, 0);
 	max-height: 200px;
 }
@@ -125,7 +142,10 @@ p {
 	.projects {
 		text-align: center;
 	}
-	.projects {
+	.project {
 		display: inline-block
+	}
+	.resume-image {
+		max-width: 100%
 	}
 }
