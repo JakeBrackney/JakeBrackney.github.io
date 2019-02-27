@@ -152,4 +152,36 @@ p {
 	.resume-image {
 		max-width: 80%
 	}
+	.contact-me {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.small{
+		padding: 5px;
+		font-size: 24px;
+	}
+	a {
+		padding: 5px;
+	}
+	.nav-link {
+		font-size: 18px;
+	}
+	p {
+		font-size: 16px;
+	}
+	.projects {
+		text-align: center;
+	}
+	.project {
+		display: inline-block
+	}
+	.resume-image {
+		max-width: 80%
+	}
+	.contact-me {
+		text-align: center;
+		font-size: 32px;
+	}
 }
