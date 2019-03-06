@@ -96,12 +96,17 @@ h3 {
 
 .email {
 	font-size: 24px;
+
 }
 
 .contact-me {
 	font-size: 14px;
 	padding: 10px;
-	color: rgb(66, 133, 244)
+	color: rgb(66, 133, 244);
+	outline: none;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 1px 1px 2px 2px rgb(211, 211, 211)
 }
 
 @media screen and (max-width: 600px) {
@@ -131,7 +136,9 @@ h3 {
 	.card{
 		max-width: 75%;
 	}
-
+	.contact-me {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 1000px) {
@@ -163,5 +170,8 @@ h3 {
 	}
 	.card{
 		max-width: 75%;
+	}
+	.contact-me {
+		display: none;
 	}
 }
