@@ -136,9 +136,9 @@ h3 {
 	.card{
 		max-width: 75%;
 	}
-	.contact-me {
+	/* .contact-me {
 		display: none;
-	}
+	} */
 }
 
 @media screen and (max-width: 1000px) {
@@ -171,7 +171,7 @@ h3 {
 	.card{
 		max-width: 75%;
 	}
-	.contact-me {
+	/* .contact-me {
 		display: none;
-	}
+	} */
 }
