@@ -96,7 +96,6 @@ h3 {
 }
 
 .contact-info {
-	font-size: 36px;
 	padding: 100px
 }
 
@@ -118,16 +117,20 @@ h3 {
 		font-size: 18px;
 	}
 	.brand-statement {
-		font-size: 16px;
+		font-size: 14px;
 	}
 	.projects {
 		text-align: center;
 	}
 	.project {
-		display: inline-block
+		display: inline-block;
+		max-width: 75%
 	}
 	.email{
-		font-size: 18px;
+		font-size: 14px;
+	}
+	.card{
+		max-width: 75%;
 	}
 
 }
@@ -137,6 +140,9 @@ h3 {
 		padding: 5px;
 		font-size: 24px;
 	}
+	nav {
+		text-align: right;
+	}
 	a {
 		padding: 5px;
 	}
@@ -144,15 +150,19 @@ h3 {
 		font-size: 18px;
 	}
 	.brand-statement {
-		font-size: 16px;
+		font-size: 14px;
 	}
 	.projects {
 		text-align: center;
 	}
 	.project {
-		display: inline-block
+		display: inline-block;
+		max-width: 75%
 	}
 	.email{
-		font-size: 24px;
+		font-size: 14px;
+	}
+	.card{
+		max-width: 75%;
 	}
 }
