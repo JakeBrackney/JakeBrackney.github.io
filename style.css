@@ -66,7 +66,9 @@ h3 {
 
 .headshot {
 	max-width: 200px;
-	padding: 15px 0 0 0;
+	margin: 15px;
+	box-shadow: 1px 1px 20px 2px rgb(211, 211, 211);
+	border-radius: 10px;
 }
 
 .projects {
@@ -88,15 +90,12 @@ h3 {
 	border-radius: 10px;
 }
 
-.section {
-	color: black;
-	font-size: 36px;
-	font-weight: 700;
-	padding: 20px 0 0 30px
+.contact-info {
+	padding: 100px;
 }
 
-.contact-info {
-	padding: 100px
+.email {
+	font-size: 24px;
 }
 
 .contact-me {
