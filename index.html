@@ -6,35 +6,52 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Jake Brackney</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
 
-  <header class="small"> Jake Brackney
+  <header class="small" id='landing'> Jake Brackney
     <nav>
-      <a class='nav-link' href= "portfolio.html">Portfolio</a>
-		  <a class='nav-link' href= "contact.html">Contact</a>
+      <a class='nav-link' href="#projects">Projects</a>
+      <a class='nav-link' href="#contact">Contact</a>
+      <a class='nav-link' href="https://www.linkedin.com/in/james-brackney-13b37b155/">LinkedIn</a>
+      <a class='nav-link' href="https://github.com/JakeBrackney">GitHub </a>
     </nav>
   </header>
   
   
 
-  <div class='brand'>
+  <div class='brand' id="landing">
+
     <div class='brand-elements'>
       <img class='headshot' src='./headshot.jpg'>
-      <p>Jake is a DC-based software engineer who believes the people in this world matter and that it should be reflected in our technology. The
+      <p class='brand-statement'>Jake is a DC-based software engineer who believes the people in this world matter and that it should be reflected in our technology. The
         only thing more important to him than effective and efficient solutions is the person behind the screen. His
         mission is to work on applications and products that benefit the user.<p>
     </div>
 
-    <div class='contact'>
-        <a class='contact' href="https://www.linkedin.com/in/james-brackney-13b37b155/">LinkedIn</a>
-        <a class='contact' href="https://github.com/JakeBrackney">GitHub </a>
-        <a class='contact' href="./resume.html">Resume</a>
-    </div>
 
   </div>
-  
 
   
+  <div class='projects'>
+    <h2 class="small" id='projects'>Works by Jake</h2>
+
+    <a class='nav-link' href='https://jakebrackney.github.io/Project-1'><img class='project' src='/tower.png'></a>
+    <a href='https://app-grateful.herokuapp.com'><img class='project' src='/grateful.png'></a>
+  </div>
+ 
+
+    
+  <div class ='contact-info'>
+    <h2 class="small" id='contact'>Contact Me</h2>
+
+    <p>brackney.jake@gmail.com</p>
+    <a href='#contact' onclick="copyText()" class='contact-me' id='email'>Tap to copy email</a>
+  </div>
+
+  <!-- HAHA MADE YOU LOOK -->
+  
+  <script src='script.js'></script>
 </body>
 </html>

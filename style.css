@@ -1,66 +1,55 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 	/* background-image: url("skyline.jpg"); */
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-	font-family: 'Times New Roman', Times, serif;
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
 }
 
 header {
 	display: flex;
 	justify-content: space-between;
-	background: black;
-	color: rgb(255, 255, 255);
+	color: black;
 	text-align: left;
 	font-size: 72px;
 	margin: 0px auto;
 	padding: 10px 0px 20px 50px;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	font-weight: 300;
+	font-weight: 700;
 }
 
 a {
-	color: white;
+	color: rgb(66, 133, 244);
 	text-decoration: none;
-	padding: 0 30px 0px 30px;
-	font-size: 36px;
+	padding: 0 15px 0px 15px;
+	font-size: 24px;
 }
 
-a:hover {
-	color: rgb(66, 133, 244)
-}
-
-.nav-link {
-	font-size: 36px;
-	border-radius: 50px;
-}
-
-.contact {
-	text-align: center
-}
-
-a.contact {
-	display: inline-block;
-	color: black;
-	font-size: 36px;
-}
 
 a.contact:hover {
 	color: rgb(66, 133, 244)
 }
 
-h1 {
-	color: black;
-	text-decoration: none;
-	font-size: 80px;
+h2 {
+	padding: 100px 0 25px 50px;
+	font-size: 24px;
 	font-weight: 700;
 }
 
-h2 {
-	color: black;
-	padding: 0 0 0 50px;
+h3 {
+	font-size: 36px;
+}
+
+.brand {
+	padding: 25px;
+	text-align: center;
+}
+
+.brand-statement {
+	margin: 0 auto;
 	font-size: 24px;
-	font-weight: 700;
+	max-width: 75%;
 }
 
 .resume {
@@ -72,18 +61,11 @@ h2 {
 	max-width: 50%
 }
 
-.brand {
-	text-align: center;
-}
-
 .brand-elements {
 	display: inline-block;
 }
 
-p {
-	font-size: 24px;
-	max-width: 700px;
-}
+
 
 .headshot {
 	max-width: 200px;
@@ -101,10 +83,6 @@ p {
 	max-height: 200px;
 }
 
-.project:hover {
-	border: 3px solid rgb(66, 133, 244)
-}
-
 .section {
 	color: black;
 	font-size: 36px;
@@ -119,9 +97,20 @@ p {
 }
 
 .contact-me {
-	display: block;
-	margin: 0 auto;
-	padding: 15px;
+	/* margin: 0 auto; */
+	font-size: 14px;
+	padding: 10px;
+	color: rgb(66, 133, 244)
+}
+
+textarea {
+	border: none;
+}
+
+.home {
+	position: absolute;
+	border: none;
+	text-align: left;
 }
 
 @media screen and (max-width: 600px) {
@@ -135,7 +124,7 @@ p {
 	.nav-link {
 		font-size: 18px;
 	}
-	p {
+	.brand-statement {
 		font-size: 16px;
 	}
 	.projects {
@@ -144,15 +133,10 @@ p {
 	.project {
 		display: inline-block
 	}
-	.resume-image {
-		max-width: 100%
-	}
-	.contact-me {
-		font-size: 18px;
-	}
+
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
 	.small{
 		padding: 5px;
 		font-size: 24px;
@@ -163,7 +147,7 @@ p {
 	.nav-link {
 		font-size: 18px;
 	}
-	p {
+	.brand-statement {
 		font-size: 16px;
 	}
 	.projects {
@@ -171,9 +155,5 @@ p {
 	}
 	.project {
 		display: inline-block
-	}
-	.contact-me {
-		text-align: center;
-		font-size: 32px;
 	}
 }
