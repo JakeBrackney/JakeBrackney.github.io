@@ -25,11 +25,6 @@ a {
 	font-size: 24px;
 }
 
-
-a.contact:hover {
-	color: rgb(66, 133, 244)
-}
-
 h2 {
 	padding: 100px 0 25px 50px;
 	font-size: 24px;
@@ -47,8 +42,8 @@ h3 {
 
 .brand-statement {
 	margin: 0 auto;
-	font-size: 24px;
-	max-width: 75%;
+	font-size: 20px;
+	max-width: 85%;
 }
 
 .resume {
@@ -120,7 +115,8 @@ h3 {
 		font-size: 18px;
 	}
 	.brand-statement {
-		font-size: 14px;
+		font-size: 16px;
+		max-width: 100%
 	}
 	.projects {
 		text-align: center;
@@ -135,12 +131,15 @@ h3 {
 	.card{
 		max-width: 75%;
 	}
+	#section-header {
+		font-size: 18px
+	}
 	.contact-me {
 		display: none;
 	}
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
 	.small{
 		padding: 5px;
 		font-size: 24px;
@@ -156,6 +155,7 @@ h3 {
 	}
 	.brand-statement {
 		font-size: 14px;
+		max-width: 100%;
 	}
 	.projects {
 		text-align: center;
