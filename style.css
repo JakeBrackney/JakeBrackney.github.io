@@ -96,7 +96,6 @@ h3 {
 
 .email {
 	font-size: 24px;
-
 }
 
 .contact-me {
@@ -136,6 +135,9 @@ h3 {
 	.card{
 		max-width: 75%;
 	}
+	.contact-me {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 1000px) {
@@ -167,5 +169,8 @@ h3 {
 	}
 	.card{
 		max-width: 75%;
+	}
+	.contact-me {
+		display: none;
 	}
 }
