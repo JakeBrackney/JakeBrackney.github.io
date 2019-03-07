@@ -120,9 +120,6 @@ h3 {
 	.nav-link {
 		font-size: 18px;
 	}
-	#contact {
-		display: none;
-	}
 	.brand-statement {
 		font-size: 14px;
 	}
@@ -139,9 +136,6 @@ h3 {
 	.card{
 		max-width: 75%;
 	}
-	/* .contact-me {
-		display: none;
-	} */
 }
 
 @media screen and (max-width: 1000px) {
@@ -158,9 +152,6 @@ h3 {
 	.nav-link {
 		font-size: 18px;
 	}
-	#contact {
-		display: none;
-	}
 	.brand-statement {
 		font-size: 14px;
 	}
@@ -177,7 +168,4 @@ h3 {
 	.card{
 		max-width: 75%;
 	}
-	/* .contact-me {
-		display: none;
-	} */
 }
