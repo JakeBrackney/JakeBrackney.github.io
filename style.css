@@ -120,6 +120,9 @@ h3 {
 	.nav-link {
 		font-size: 18px;
 	}
+	#contact {
+		display: none;
+	}
 	.brand-statement {
 		font-size: 14px;
 	}
@@ -154,6 +157,9 @@ h3 {
 	}
 	.nav-link {
 		font-size: 18px;
+	}
+	#contact {
+		display: none;
 	}
 	.brand-statement {
 		font-size: 14px;
