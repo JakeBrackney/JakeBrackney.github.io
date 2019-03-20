@@ -25,7 +25,7 @@ header {
 a {
 	color: rgb(66, 133, 244);
 	text-decoration: none;
-	padding: 0 15px 0px 15px;
+	padding: 0 10px 0px 10px;
 	font-size: 24px;
 }
 
@@ -68,6 +68,10 @@ h3 {
 	margin: 15px;
 	box-shadow: 1px 1px 20px 2px rgb(211, 211, 211);
 	border-radius: 10px;
+}
+
+.skills {
+	padding-bottom: 75px;
 }
 
 .icon {
@@ -113,23 +117,31 @@ h3 {
 	box-shadow: 1px 1px 2px 2px rgb(211, 211, 211)
 }
 
-@media screen and (max-width: 600px) {
-	.small{
+footer {
+	background-color: rgb(66, 133, 244);
+	padding-top: 15px;
+	text-align: center;
+}
+
+.footer-link {
+	display: inline-block;
+}
+
+@media screen and (max-width: 700px) {
+	.header {
 		padding: 5px;
-		font-size: 24px;
 	}
 	.large-nav {
 		display: none;
 	}
 	.small-nav {
-		display: contents
+		display: contents;
+		background-color: rgb(66, 133, 244);
+		color: white;
 	}
-	a {
-		padding: 5px;
-	}
-	.nav-link {
-		font-size: 12px;
-	}
+	/* .nav-link-skills {
+		display: none;
+	} */
 	.brand-statement {
 		font-size: 16px;
 		max-width: 100%
@@ -154,20 +166,34 @@ h3 {
 		display: none;
 	}
 }
+footer {
+	text-align: center;
+	background-color: rgb(66, 133, 244);
+}
+.footer-nav {
+	display: inline-block;
+}
+.footer-link {
+	color: black;
+	font-size: 12px;
+}
 
 @media screen and (max-width: 1024px) {
-	.small{
-		padding: 5px;
+	.header {
+		background-color: rgb(66, 133, 244);
+		color: black;
+		padding-left: 15px;
 		font-size: 24px;
 	}
 	nav {
 		text-align: right;
+		background-color: rgb(66, 133, 244);
 	}
-	a {
-		padding: 5px;
+	.small-nav {
+		color: white;
 	}
 	.nav-link {
-		font-size: 18px;
+		font-size: 16px;
 	}
 	.brand-statement {
 		font-size: 14px;
@@ -192,5 +218,17 @@ h3 {
 	}
 	.contact-me {
 		display: none;
+	}
+	footer {
+		text-align: center;
+		padding: 10px;
+		font-size: 12px;
+	}
+	.footer-nav {
+		display: inline-block;
+		font-size: 24px;
+	}
+	.footer-link {
+		color: black;
 	}
 }
