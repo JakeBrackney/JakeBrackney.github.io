@@ -118,12 +118,13 @@ h3 {
 }
 
 footer {
-	background-color: rgb(66, 133, 244);
+	/* background-color: rgb(66, 133, 244); */
 	padding-top: 15px;
 	text-align: center;
 }
 
 .footer-link {
+	color: black;
 	display: inline-block;
 }
 
@@ -139,9 +140,12 @@ footer {
 		background-color: rgb(66, 133, 244);
 		color: white;
 	}
-	/* .nav-link-skills {
-		display: none;
-	} */
+	a {
+		padding: 0 5px 0 5px;
+	}
+	.nav-link {
+		font-size: 10px;
+	}
 	.brand-statement {
 		font-size: 16px;
 		max-width: 100%
@@ -165,18 +169,19 @@ footer {
 	.contact-me {
 		display: none;
 	}
+	footer {
+		text-align: center;
+		background-color: rgb(66, 133, 244);
+	}
+	.footer-nav {
+		display: inline-block;
+	}
+	.footer-link {
+		color: black;
+		font-size: 12px;
+	}
 }
-footer {
-	text-align: center;
-	background-color: rgb(66, 133, 244);
-}
-.footer-nav {
-	display: inline-block;
-}
-.footer-link {
-	color: black;
-	font-size: 12px;
-}
+
 
 @media screen and (max-width: 1024px) {
 	.header {
@@ -191,6 +196,9 @@ footer {
 	}
 	.small-nav {
 		color: white;
+	}
+	a {
+		padding: 0 5px 0 5px;
 	}
 	.nav-link {
 		font-size: 14px;
