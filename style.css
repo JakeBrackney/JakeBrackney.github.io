@@ -100,7 +100,7 @@ h3 {
 }
 
 .contact-info {
-	padding: 100px;
+	padding: 80px 0 80px 0;
 }
 
 .email {
@@ -219,8 +219,7 @@ footer {
 		max-width: 75%
 	}
 	.email{
-		font-size: 12px;
-		/* padding: 15px; */
+		font-size: 18px;
 	}
 	.card{
 		max-width: 75%;
