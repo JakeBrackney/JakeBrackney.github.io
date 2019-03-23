@@ -220,7 +220,7 @@ footer {
 	}
 	.email{
 		font-size: 12px;
-		padding: 15px;
+		/* padding: 15px; */
 	}
 	.card{
 		max-width: 75%;
